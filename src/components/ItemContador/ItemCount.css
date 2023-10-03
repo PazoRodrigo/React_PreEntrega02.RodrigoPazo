@@ -1,0 +1,37 @@
+.Counter {
+  align-items: center;
+  justify-content: center;
+}
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 180px;
+}
+.Button {
+  height: 93px;
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #4e09ce;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+.Number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #160635;
+  cursor: pointer;
+  user-select: none;
+  font-size: 208px;
+}

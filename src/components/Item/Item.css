@@ -1,0 +1,42 @@
+.CardItem {
+  padding: 25px;
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin: 5px;
+  flex: 1 1;
+}
+.CardHeader {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: 1px solid blue;
+  border-radius: 15px;
+}
+
+picture {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info {
+  color: darkblue;
+  font-size: 1.3em;
+}
+.ItemImg {
+  width: 250px;
+  height: 250px;
+}
+.CardFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnDetalle {
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+}
